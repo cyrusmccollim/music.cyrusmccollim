@@ -9,44 +9,46 @@ export type TrackInfo = {
 };
 
 const rawAudioData = {
-  commissioned: {
-    Acoustic: ["commissioned/acoustic/Roundabout (Jazz).mp3"],
-    Orchestral: ["commissioned/orchestral/Villain (Fantasy).mp3"],
-  },
-  original: {
-    Acoustic: [
-      "original/acoustic/Cowboy Crossing (Country).mp3",
-      "original/acoustic/Easy Drifter (Country).mp3",
-      "original/acoustic/Espionage (Jazz).mp3",
-      "original/acoustic/Ghost Town (Country).mp3",
-      "original/acoustic/Halloween Mischief.mp3",
-      "original/acoustic/Llega el Rey (Latin Jazz).mp3",
-      "original/acoustic/Minor Infractions (Jazz).mp3",
-      "original/acoustic/The Instigator Variation (Polka).mp3",
-      "original/acoustic/The Instigator (Polka).mp3",
-    ],
-    Orchestral: [
-      "original/orchestral/Alarms Triggered (Action).mp3",
-      "original/orchestral/Ascend (Fantasy).mp3",
-      "original/orchestral/Breach Protocol (Action).mp3",
-      "original/orchestral/Escape The Compound (Action).mp3",
-      "original/orchestral/Extraction Operation (Action).mp3",
-      "original/orchestral/Falling (Fantasy).mp3",
-      "original/orchestral/Stealth Takeout (Action).mp3",
-      "original/orchestral/The Jester (Fantasy).mp3",
-      "original/orchestral/Wicked Waltz (Dark).mp3",
-    ],
-    Piano: [
-      "original/piano/Falling.wav",
-      "original/piano/Gentle Goodbye.wav",
-      "original/piano/Memory.wav",
-    ],
-    Rock: [
-      "original/rock/Inadvertent (Hard).mp3",
-      "original/rock/Spies (Hard).mp3",
-      "original/rock/Suspended (Indie).mp3",
-    ],
-  },
+    "commissioned": {
+        "Ensemble": [
+            "commissioned/ensemble/Roundabout (Jazz).mp3"
+        ],
+        "Orchestra": [
+            "commissioned/orchestra/Villain (Fantasy).mp3"
+        ]
+    },
+    "original": {
+        "Ensemble": [
+            "original/ensemble/Cowboy Crossing (Country).mp3",
+            "original/ensemble/Easy Drifter (Country).mp3",
+            "original/ensemble/Espionage (Jazz).mp3",
+            "original/ensemble/Ghost Town (Country).mp3",
+            "original/ensemble/Halloween Mischief.mp3",
+            "original/ensemble/Llega el Rey (Latin Jazz).mp3",
+            "original/ensemble/Minor Infractions (Jazz).mp3"
+        ],
+        "Orchestra": [
+            "original/orchestra/Alarms Triggered (Action).mp3",
+            "original/orchestra/Ascend (Fantasy).mp3",
+            "original/orchestra/Breach Protocol (Action).mp3",
+            "original/orchestra/Escape The Compound (Action).mp3",
+            "original/orchestra/Extraction Operation (Action).mp3",
+            "original/orchestra/Falling (Fantasy).mp3",
+            "original/orchestra/Stealth Takeout (Action).mp3",
+            "original/orchestra/The Jester (Fantasy).mp3",
+            "original/orchestra/Wicked Waltz (Dark).mp3"
+        ],
+        "Piano": [
+            "original/piano/Falling.wav",
+            "original/piano/Gentle Goodbye.wav",
+            "original/piano/Memory.wav"
+        ],
+        "Rock": [
+            "original/rock/Inadvertent (Hard).mp3",
+            "original/rock/Spies (Hard).mp3",
+            "original/rock/Suspended (Indie).mp3"
+        ]
+    }
 };
 
 function parseTrackInfoFromPath(path: string) {
