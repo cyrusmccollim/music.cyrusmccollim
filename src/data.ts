@@ -25,7 +25,8 @@ const rawAudioData = {
             "original/ensemble/Ghost Town (Country).mp3",
             "original/ensemble/Halloween Mischief.mp3",
             "original/ensemble/Llega el Rey (Latin Jazz).mp3",
-            "original/ensemble/Minor Infractions (Jazz).mp3"
+            "original/ensemble/Minor Infractions (Jazz).mp3",
+            "original/ensemble/The Instigator.mp3"
         ],
         "Orchestra": [
             "original/orchestra/Alarms Triggered (Action).mp3",
