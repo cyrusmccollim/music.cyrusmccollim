@@ -16,13 +16,13 @@ export default function About() {
             About
           </span>
           <p className="font-sans text-muted leading-relaxed mb-6">
-            My journey started by playing the music I heard in games and films on the piano. Diving into those works made me want to learn the instrument properly, which naturally evolved into a passion for music theory and composition.
+            My journey started by playing the music I loved from games and films on the piano. Those works made me want to learn the instrument properly, which naturally evolved into a passion for music theory and composition.
           </p>
           <p className="font-sans text-muted leading-relaxed mb-6">
-            While piano and orchestra are where I feel most at home, I enjoy experimenting with different ensembles and instruments. My process usually starts at the keys, playing around with ideas until something clicks, then gradually building the arrangement out from there.
+            While piano and orchestra are where I feel most at home, I enjoy experimenting with different ensembles and instruments. My process usually starts at the piano, playing around with ideas until something clicks, then gradually building the arrangement out from there.
           </p>
           <p className="font-sans text-muted leading-relaxed">
-            On the professional side, my experience spans a wide variety of projects, including solo piano compositions, custom arrangements, full orchestral scoring, and score transcription.
+            On the professional side, my experience spans a wide variety of projects that include piano compositions, custom arrangements, full orchestral scoring, and transcription.
           </p>
         </div>
       </div>
