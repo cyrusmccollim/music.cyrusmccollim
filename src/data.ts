@@ -40,6 +40,7 @@ const rawAudioData = {
             "original/orchestra/Wicked Waltz (Dark).mp3"
         ],
         "Piano": [
+            "original/piano/Etude.mp3",
             "original/piano/Falling.wav",
             "original/piano/Gentle Goodbye.wav",
             "original/piano/Memory.wav"
